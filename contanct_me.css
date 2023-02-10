@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(111.34deg, #4053cf 33%, #80afd2 34%);
+}
+.container{
+    height: 100vh;
+    display: flex;
+    padding: 30px 150px;
+}
+.container--text{
+    margin-left: 120px;
+    margin-top: 80px;
+    width: 50%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 11px 84px;
+    padding: 8px 27px;
+}
+input,
+textarea{
+    width: 80%;
+    margin: 10px 0;
+    height: 30px;
+}
+input{
+    padding: 10px 15px;
+}
+.btn{
+    padding:15px 34px;
+    width: 27%;
+    margin: 16px 0px;
+    border-radius: 9px;
+    background-color: rgb(176, 176, 176);
+}
+
